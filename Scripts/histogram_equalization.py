@@ -16,7 +16,7 @@ def process_histogram_images(input_dir, output_dir, technique):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    temp = 0
+    # temp = 0
     for filename in os.listdir(input_dir):
         if filename.endswith('.tif'):
             img_path = os.path.join(input_dir, filename)
@@ -43,9 +43,9 @@ def process_histogram_images(input_dir, output_dir, technique):
             cv2.imwrite(output_path, processed_image)
             print(f"Processed and saved: {filename} at {output_dir}")
 
-        temp += 1
-        if temp >= 10:
-            break
+        # temp += 80
+        # if temp >= 1:
+        #     break
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

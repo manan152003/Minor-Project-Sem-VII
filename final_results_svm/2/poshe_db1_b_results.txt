@@ -1,0 +1,30 @@
+Results for poshe_db1_b
+==================================================
+
+Dataset Information:
+--------------------
+Number of samples: 80
+Feature vector length: 431649
+Unique classes: ['101' '102' '103' '104' '105' '106' '107' '108' '109' '110']
+
+Classification Results:
+--------------------
+Accuracy: 0.5833333333333334
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         101       0.67      1.00      0.80         2
+         102       0.50      0.50      0.50         2
+         103       1.00      0.50      0.67         2
+         104       1.00      1.00      1.00         3
+         105       0.00      0.00      0.00         3
+         106       0.33      0.50      0.40         2
+         107       0.67      0.67      0.67         3
+         108       0.00      0.00      0.00         2
+         109       0.50      1.00      0.67         2
+         110       1.00      0.67      0.80         3
+
+    accuracy                           0.58        24
+   macro avg       0.57      0.58      0.55        24
+weighted avg       0.58      0.58      0.56        24

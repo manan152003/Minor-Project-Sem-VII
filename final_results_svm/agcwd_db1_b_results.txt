@@ -1,0 +1,30 @@
+Results for agcwd_db1_b
+==================================================
+
+Dataset Information:
+--------------------
+Number of samples: 80
+Feature vector length: 46656
+Unique classes: ['101' '102' '103' '104' '105' '106' '107' '108' '109' '110']
+
+Classification Results:
+--------------------
+Accuracy: 0.7083333333333334
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         101       1.00      1.00      1.00         2
+         102       0.50      0.50      0.50         2
+         103       1.00      0.50      0.67         2
+         104       1.00      1.00      1.00         3
+         105       1.00      0.33      0.50         3
+         106       0.33      0.50      0.40         2
+         107       0.75      1.00      0.86         3
+         108       0.00      0.00      0.00         2
+         109       0.67      1.00      0.80         2
+         110       1.00      1.00      1.00         3
+
+    accuracy                           0.71        24
+   macro avg       0.72      0.68      0.67        24
+weighted avg       0.76      0.71      0.70        24
